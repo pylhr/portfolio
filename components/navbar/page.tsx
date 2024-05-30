@@ -46,14 +46,14 @@ const Navbar = () => {
                         >About</Link>
                 </li>
             </div>
-            <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
+            { /*<div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <div className="inline-flex rounded-full shadow">
                     <Link href="/guestbook"
                         className="inline-flex items-center px-4 py-2 text-base text-gray-900 bg-white border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-50 ">
                         Guestbook
-                    </Link>
+  </Link> 
                 </div>
-            </div>
+  </div> */}
         </nav>
     </div>
 </div>

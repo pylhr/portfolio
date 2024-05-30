@@ -10,11 +10,11 @@ export interface Project {
   
   export const projectsData: Project[] = [
     {
-      name: "Project 1",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec justo a elit.",
-      techStack: "React, Node.js, MongoDB",
-      liveLink: "https://example.com/project1",
-      image: "/images/project1.jpg" // Path to your project image
+      name: "Flex-Movie",
+      description: "Movie Recommendation service",
+      techStack: "React, Node.js, TMDB API, JS",
+      liveLink: "https://flex-movie.onrender.com/",
+      image: "/project-images/flex-movie.png" // Path to your project image
     },
     {
       name: "Project 2",
