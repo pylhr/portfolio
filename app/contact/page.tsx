@@ -26,7 +26,7 @@ const Contact = () => {
             <FiYoutube className="text-3xl text-gray-600 mr-4" />
             <div>
               <a href="https://www.youtube.com/channel/UCtqc-WbuuiSC_l9yVlpRNBw" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-gray-800 hover:text-red-600">Subscribe to my YouTube channel</a>
-              <p className="text-gray-600">Watch tutorials, vlogs, and more</p>
+              <p className="text-gray-600">Watch tutorials, explainer videos and video essays, etc.</p>
             </div>
           </div>
           <div className="flex items-center bg-gray-100 rounded-lg p-6">
