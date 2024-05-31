@@ -5,17 +5,17 @@ import moment from "moment"
 import { remark } from "remark"
 import html from "remark-html"
 
-import type { ArticleItem } from "@/types"
+import type { WritingItem } from "@/types"
 
-const articlesDirectory = path.join(process.cwd(), "articles")
+const writingsDirectory = path.join(process.cwd(), "writingsData")
 
-const getSortedArticles = (): ArticleItem[] => {
-  const fileNames = fs.readdirSync(articlesDirectory)
+const getSortedArticles = (): WritingItem[] => {
+  const fileNames = fs.readdirSync(writingsDirectory)
 
   const allArticlesData = fileNames.map((fileName) => {
     const id = fileName.replace(/\.md$/, "")
 
-    const fullPath = path.join(articlesDirectory, fileName)
+    const fullPath = path.join(writingsDirectory, fileName)
     const fileContents = fs.readFileSync(fullPath, "utf-8")
 
     const matterResult = matter(fileContents)
@@ -42,9 +42,9 @@ const getSortedArticles = (): ArticleItem[] => {
   })
 }
 
-export const getCategorisedArticles = (): Record<string, ArticleItem[]> => {
+export const getCategorisedArticles = (): Record<string, WritingItem[]> => {
   const sortedArticles = getSortedArticles()
-  const categorisedArticles: Record<string, ArticleItem[]> = {}
+  const categorisedArticles: Record<string, WritingItem[]> = {}
 
   sortedArticles.forEach(article =>{
     if(!categorisedArticles[article.category]){
@@ -58,7 +58,7 @@ export const getCategorisedArticles = (): Record<string, ArticleItem[]> => {
 }
 
 export const getArticleData = async(id: string) =>{
-  const fullPath = path.join(articlesDirectory, `${id}.md`)
+  const fullPath = path.join(writingsDirectory, `${id}.md`)
   const fileContents = fs.readFileSync(fullPath,"utf-8")
   const matterResult = matter(fileContents)
   const processedContent = await remark()

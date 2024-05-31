@@ -1,4 +1,4 @@
-import ArticleItemList from "@/components/ArticleListItem";
+import WritingItemList from "@/components/WritingListItem";
 import { getCategorisedArticles } from "@/lib/writing";
 import React from "react";
 
@@ -39,7 +39,7 @@ const Blog = () => {
                           return (
                             <React.Fragment key={article.id}>
                               <div className="mb-6">
-                                <ArticleItemList
+                                <WritingItemList
                                   category={category}
                                   articles={[article]}
                                   key={article.id}
