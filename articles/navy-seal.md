@@ -1,9 +1,10 @@
 ---
-title: "Why you should start a business"
+title: "Navy Seal"
 category: "business"
-date: "22-01-2024"
+date: "31-07-2023"
 
 tags: ["book", "non-fiction"]
 ---
 
 # Why you should start a business
+THis is a navy seal

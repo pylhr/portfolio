@@ -2,6 +2,8 @@
 title: "Lessons from Steve Jobs"
 category: "business"
 date: "10-01-2023"
+
+tags: ["book", "non-fiction"]
 ---
 
 # Lessons from Steve Jobs

@@ -2,6 +2,8 @@
 title: "How to write clean code"
 category: "software engineering"
 date: "01-01-2023"
+
+tags: ["engineering"]
 ---
 
 # How to Write Clean Code

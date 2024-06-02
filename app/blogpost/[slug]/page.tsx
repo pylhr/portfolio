@@ -1,8 +1,15 @@
 import Link from "next/link";
 import { ArrowLeftIcon } from "@heroicons/react/24/solid";
 import { getArticleData } from "@/lib/articles";
+import React from "react";
 
-const Article = async ({ params }: { params: { slug: string } }) => {
+type ArticleProps = {
+  params: {
+    slug: string;
+  };
+};
+
+const Article = async ({ params }: ArticleProps) => {
   const articleData = await getArticleData(params.slug);
 
   return (
@@ -12,13 +19,22 @@ const Article = async ({ params }: { params: { slug: string } }) => {
           <ArrowLeftIcon width={20} />
           <p>back</p>
         </Link>
-        <p>{articleData.date.toString()}</p>
+        <p>{articleData.date}</p>
       </div>
       <article
         className="article"
         dangerouslySetInnerHTML={{ __html: articleData.contentHtml }}
       />
-      
+      <div>
+        Tags:
+        {articleData.tags.map((tag) => (
+          <Link key={tag} href={`/tag/${tag}`}>
+            <p className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              #{tag}
+            </p>
+          </Link>
+        ))}
+      </div>
     </section>
   );
 };
