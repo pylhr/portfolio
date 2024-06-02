@@ -37,7 +37,7 @@ const TagPage = async ({ params }: TagPageProps) => {
       <div className="relative pt-6 pb-16 sm:pb-24">
         <section className="mx-auto w-11/12 lg:w-2/3 mt-20">
           <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">
-            Posts tagged with "{tag}"
+            Posts tagged with &quot; {tag} &quot;
           </h1>
           <div className="relative">
             {articles.map((article) => (
