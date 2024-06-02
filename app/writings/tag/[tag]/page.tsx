@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import { getSortedArticles } from "@/lib/articles";
+import { getSortedArticles } from "@/lib/writing";
 
 
 type TagPageProps = {
@@ -37,7 +37,7 @@ const TagPage = async ({ params }: TagPageProps) => {
       <div className="relative pt-6 pb-16 sm:pb-24">
         <section className="mx-auto w-11/12 lg:w-2/3 mt-20">
           <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">
-            Blogposts tagged with &quot; {tag} &quot;
+            Posts tagged with &quot; {tag} &quot;
           </h1>
           <div className="relative">
             {articles.map((article) => (
@@ -52,7 +52,7 @@ const TagPage = async ({ params }: TagPageProps) => {
                 <div>
                     Tags:
                     {article.tags.map((tag: string) => (
-                      <Link key={tag} href={`/blog/tag/${tag}`}>
+                      <Link key={tag} href={`/writings/tag/${tag}`}>
                         <p className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                           #{tag}
                         </p>
