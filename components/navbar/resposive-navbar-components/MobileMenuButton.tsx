@@ -1,7 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-export function MobileMenuButton({ onClick }) {
+interface MobileMenuButtonProps {
+  onClick: () => void;
+}
+
+export function MobileMenuButton({ onClick } : MobileMenuButtonProps)  {
   return (
     
     <div className="flex items-center -mr-2 md:hidden">
