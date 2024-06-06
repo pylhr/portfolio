@@ -30,8 +30,8 @@ export interface Project {
         name: "Accordion - UI pattern",
         description: "UI pattern used in websites to enhance user experience by allowing users to expand and collapse content.",
         techStack: "ReactJS, JS, CSS",
-        liveLink: "https://example.com/project2",
-        image: "/images/project2.jpg", // Path to your project image
+        liveLink: "https://accordion-murex.vercel.app/",
+        image: "/project-images/accordion.png", // Path to your project image
         source: "https://github.com/pylhr/React-Practice-Projects/tree/main/accordion",
       },
       
