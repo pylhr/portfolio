@@ -19,7 +19,7 @@ export function MobileDrawer({ isOpen, onClose } : MobileDrawerProps ) {
           <FontAwesomeIcon className="text-3xl" icon={faXmark} />
         </button>
         <ul className="flex flex-col justify-center items-center space-y-4">
-          <li onClick={onClose}>
+          <li onClick={onClose} className='mb-6'>
             <LogoLink  />
           </li>
         <li>

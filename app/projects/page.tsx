@@ -12,10 +12,15 @@ const ProjectsPage = () => {
               <img src={project.image} alt={project.name} className="w-full h-48 object-cover object-center" />
               <div className="p-6">
                 <h2 className="text-2xl font-semibold mb-2 text-gray-800">{project.name}</h2>
-                <p className="text-base text-gray-600 mb-4">{project.description}</p>
+                <p className="text-base text-gray-600 mb-4 ">{project.description}</p>
                 <p className="text-sm text-gray-800 mb-2"><span className="font-semibold">Tech Stack:</span> {project.techStack}</p>
-                <div className="flex justify-end">
+                <div className="flex flex-row justify-between">
+                <div >
+                  <a href={project.source} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">View Source</a>
+                </div>
+                <div >
                   <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">View Live</a>
+                </div>
                 </div>
               </div>
             </div>
