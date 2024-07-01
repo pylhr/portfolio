@@ -34,6 +34,14 @@ export interface Project {
         image: "/project-images/accordion.png", // Path to your project image
         source: "https://github.com/pylhr/React-Practice-Projects/tree/main/accordion",
       },
+      {
+        name: "Talea: A Video Chat Application",
+        description: "Talea, built with Next.js and TypeScript, is a video chat application. It allows secure user login, meeting creation, and management of meetings, including features such as recording, screen sharing, and participant control.",
+        techStack: "ReactJS, JS, CSS",
+        liveLink: "https://github.com/pylhr/talea",
+        image: "/project-images/talea.png", // Path to your project image
+        source: "https://github.com/pylhr/talea",
+      },
       
     // Add more project objects as needed
   ];
