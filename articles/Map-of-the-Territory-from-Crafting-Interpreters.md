@@ -7,7 +7,8 @@ tags: ["Compilers", "Interpreters"]
 
 # The Art of the Side Hustle
 
-![Art](/public/blogpost/map.png)
+![Art](/blogpost/map.jpg)
+
 
 To deepen my understanding of programming languages and their inner workings, I started studying Crafting Interpreters by Robert Nystrom. This book is a great starting point for someone interested in learning interpreter design.
 
@@ -23,7 +24,7 @@ In this post , I will share my insights and learnings from the chapter titled 'A
 
 - Interpreters vs. Compilers: This chapter affirms the difference between compilers and interpreters using following example.
 
-![Art](/public/blogpost/plants.png)
+![Art](/blogpost/plants.jpg)
 
 I am quoting it from the book - "What’s the difference between a compiler and an interpreter ?It turns out this is like asking the difference between a fruit and a vegetable. That seems like a binary either-or choice, but actually “fruit” is a botanical term and “vegetable” is culinary. One does not strictly imply the negation of the other. There are fruits that aren’t vegetables (apples) and vegetables that aren’t fruits (carrots), but also edible plants that are both fruits and vegetables, like tomatoes."
 
