@@ -7,7 +7,7 @@ tags: ["Compilers", "Interpreters"]
 
 # The Art of the Side Hustle
 
-[](/public/blogpost/map.png)
+![Art](/public/blogpost/map.png)
 
 To deepen my understanding of programming languages and their inner workings, I started studying Crafting Interpreters by Robert Nystrom. This book is a great starting point for someone interested in learning interpreter design.
 
