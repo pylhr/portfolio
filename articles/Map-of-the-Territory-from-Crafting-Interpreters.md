@@ -23,7 +23,7 @@ In this post , I will share my insights and learnings from the chapter titled 'A
 
 - Interpreters vs. Compilers: This chapter affirms the difference between compilers and interpreters using following example.
 
-![](../public/blogpost/plants.png)
+![Art](/public/blogpost/plants.png)
 
 I am quoting it from the book - "What’s the difference between a compiler and an interpreter ?It turns out this is like asking the difference between a fruit and a vegetable. That seems like a binary either-or choice, but actually “fruit” is a botanical term and “vegetable” is culinary. One does not strictly imply the negation of the other. There are fruits that aren’t vegetables (apples) and vegetables that aren’t fruits (carrots), but also edible plants that are both fruits and vegetables, like tomatoes."
 
