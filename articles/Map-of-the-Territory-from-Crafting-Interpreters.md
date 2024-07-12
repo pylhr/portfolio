@@ -1,7 +1,7 @@
 ---
 title: "Exploring the Foundations: A Deep Dive into 'Map of the Territory' from Crafting Interpreters"
 category: ["Computer Science"]
-date: "07-01-2024"
+date: "11-07-2024"
 tags: ["Compilers", "Interpreters"]
 ---
 
