@@ -46,7 +46,7 @@ export interface Project {
         name: "Talea: A Video Chat Application",
         description: "Developed as the capstone project for my Electronics and Communication Engineering degree, integrating Digital Electronics, Smart Contracts, Blockchain, IoT, and Raspberry Pi.Designed and implemented the system architecture, integrating hardware and software for a seamless P2P energy trading platform.",
         techStack: "ReactJs, NodeJS, Solidity, Truffle, Ganache, Hardware, Digital Electronics, Raspberry Pi, Technology Researcher, Blockchain, Internet of Things (IoT)",
-        liveLink: "https://github.com/pylhr/energy-trading-platofrm",
+        liveLink: "https://drive.google.com/file/d/1bppjODqArGt8lXnN0TmaMRclWd6hrhEj/view",
         image: "/project-images/energy-trading-platform.jpg", // Path to your project image
         source: "https://github.com/pylhr/energy-trading-platofrm",
       },
