@@ -11,14 +11,14 @@ const About = () => {
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">📚 Avid reader of non-fiction, fantasy, and classics.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">📝 Expresses thoughts through poetry and prose.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🎶 Diverse musical tastes from Sufi to Celtic tunes.</p>
-    <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🌊 Finds solace in Enya&aposs ethereal compositions.</p>
+    <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🌊 Finds solace in Enya&apos;s ethereal compositions.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">💻 Engineer with a flair for innovation and problem-solving.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🔍 Skilled in software development, data science, and machine learning.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🌿 Nature lover, rejuvenated by the outdoors.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🌄 Enjoys hiking and quiet moments by the sea.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🚀 Driven by curiosity and optimism.</p>
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">🌟 Lifelong learner and dreamer, eager to explore new horizons.</p>
-    <p className="text-xl px-8 py-8 font-bold text-center text-brown-800">Thank you for visiting! Let&aposs discover the magic around us together.</p>
+    <p className="text-xl px-8 py-8 font-bold text-center text-brown-800">Thank you for visiting! Let&apos;s discover the magic around us together.</p>
   </div>
 </div>
   )
