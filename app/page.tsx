@@ -1,17 +1,29 @@
 import React from "react";
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
     <>
       <div className="bg-beige-100 text-brown-900 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
   <div className="relative pt-6 pb-16 sm:pb-24">
-    <p className="text-4xl px-8 py-8 font-bold text-center text-brown-800">hey, I&apos;m Priyanshu 👋</p>
-    <p className="text-4xl px-8 py-8 font-bold text-center text-brown-800">Generative AI Fellow @ GenAITechLab</p>
+    <p className="text-3xl px-8 py-1 font-bold text-center text-brown-800">hey, I&apos;m Priyanshu 👋</p>
+    <p className="text-2xl px-8 py-2 font-bold text-center text-brown-800">Software Engineer | Researcher</p>
+    <p className="text-2xl px-8 py-1 font-bold text-center text-brown-800">Generative AI Fellow @ GenAITechLab</p>
+    <p className="text-lg px-8 py-4 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">
+       I recently developed Avian Quantitaive Research Assistant.&nbsp;&nbsp;
+       <Button>
+        <a href="https://avian-tool.streamlit.app" target="_blank">Visit Here</a>
+       </Button>
+
+       
+    </p>
+    
     <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">
   As Generative AI Fellow I&apos; involved in a project titled &quot;<strong>Fast, high-quality NoGAN synthesizer for tabular data</strong>.&quot; 
   This project aims to develop a synthesizer for tabular data that is faster and produces better results than traditional GANs, 
   similar to XGBoost, without requiring fine-tuning.
 </p>
+
 <p className="text-lg px-8 py-1 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">
   I am currently working on several exciting projects, including:
 </p>
