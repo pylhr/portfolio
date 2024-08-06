@@ -11,6 +11,14 @@ export interface Project {
   
   export const projectsData: Project[] = [
     {
+      name: "Avian Quantitative Research Assistant",
+      description: "Avian Quantitative Research Assistant is a powerful tool for quantitative researcher, traders and analysts. Optimizing strategies, analyzing market sentiment, managing portfolios, and conducting research with real-time data and advanced algorithms.",
+      techStack: "Streamlit, Falcon LLM, Serper API, YFinance, Pandas, PyPDF2",
+      liveLink: "https://avian-tool.streamlit.app/",
+      image: "/project-images/avian.png", // Path to your project image
+      source: "https://github.com/pylhr/avian-quantitative-research-assistant"
+    },
+    {
       name: "Flex-Movie",
       description: "Movie Recommendation service",
       techStack: "React, Node.js, TMDB API, JS",
@@ -43,7 +51,7 @@ export interface Project {
         source: "https://github.com/pylhr/talea",
       },
       {
-        name: "Talea: A Video Chat Application",
+        name: "Blockchain Based P2P Energy Trading Platform",
         description: "Developed as the capstone project for my Electronics and Communication Engineering degree, integrating Digital Electronics, Smart Contracts, Blockchain, IoT, and Raspberry Pi.Designed and implemented the system architecture, integrating hardware and software for a seamless P2P energy trading platform.",
         techStack: "ReactJs, NodeJS, Solidity, Truffle, Ganache, Hardware, Digital Electronics, Raspberry Pi, Technology Researcher, Blockchain, Internet of Things (IoT)",
         liveLink: "https://drive.google.com/file/d/1bppjODqArGt8lXnN0TmaMRclWd6hrhEj/view",
