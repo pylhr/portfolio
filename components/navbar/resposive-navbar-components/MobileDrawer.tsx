@@ -27,6 +27,11 @@ export function MobileDrawer({ isOpen, onClose } : MobileDrawerProps ) {
                         >Blog</Link>
                 </li>
                 <li>
+                    <Link href="/notebooks" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
+                        >My Notebooks
+                    </Link>
+                </li>
+                <li>
                     <Link href="/projects" className="text-base font-normal text-gray-500 list-none hover:text-gray-900" onClick={onClose}
                         >Projects
                     </Link>
