@@ -5,7 +5,7 @@ date: "02-02-2021"
 tags: ["book", "fiction"]
 ---
 # The Alchemist: A Journey of Dreams and Self-Discovery
-# The Alchemist: A Journey of Self-Discovery
+
 
 ![Cover Image](https://upload.wikimedia.org/wikipedia/commons/c/c4/TheAlchemist.jpg)
 

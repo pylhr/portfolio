@@ -8,7 +8,7 @@ tags: ["book", "fiction"]
 # The Merchant of Venice
 
 ![Art](/merchant.jpeg)
-![Art](/blogpost/map.jpg)
+
 
 William Shakespeare's 'The Merchant of Venice' is a play that has captivated audiences and readers for centuries. This complex work intertwines themes of mercy, justice, and prejudice, making it a subject of continual study and interpretation.
 
