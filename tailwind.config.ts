@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        cormorantGaramond: ["var(--font-cormorant-garamond)", "serif"],
+        poppins: ["var(--font-poppins)", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -27,6 +31,10 @@ const config = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+        },
+        brown: {
+          500: '#6D4C41',  // Example medium brown
+          600: '#4E342E',  // Example darker brown
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

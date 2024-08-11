@@ -11,7 +11,7 @@ export default function Home() {
     <p className="text-2xl px-8 py-1 font-bold text-center text-brown-800">Generative AI Fellow @ GenAITechLab</p>
     <p className="text-lg px-8 py-4 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">
        I recently developed Avian Quantitaive Research Assistant.&nbsp;&nbsp;
-       <Button>
+       <Button className="bg-brown-500 text-white font-semibold py-1 px-4 rounded shadow-lg hover:bg-brown-600 transition duration-300">
         <a href="https://avian-tool.streamlit.app" target="_blank">Visit Here</a>
        </Button>
 
