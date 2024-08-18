@@ -7,6 +7,11 @@ const Notebooks = () => {
       href: "https://dsa-pylhr.vercel.app/",
       description: "Learn about various data structures and algorithms with examples and explanations."
     },
+    {
+      title: "Java",
+      href: "https://java-pylhr.vercel.app/",
+      description: "Java notes with java concepts, code snippets and practical tips.Perfect for reference and revision."
+    },
     // Add more notebooks here
   ];
 
