@@ -10,7 +10,7 @@ const Notebooks = () => {
     {
       title: "Java",
       href: "https://java-pylhr.vercel.app/",
-      description: "Java notes with java concepts, code snippets and practical tips.Perfect for reference and revision."
+      description: "Notes with java concepts, code snippets and practical tips.Perfect for reference and revision."
     },
     // Add more notebooks here
   ];
