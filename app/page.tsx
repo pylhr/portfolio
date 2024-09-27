@@ -20,7 +20,7 @@ export default function Home() {
     <p className="text-lg px-8 py-4 text-left sm:px-12 lg:px-32 xl:px-48 leading-relaxed text-brown-700">
        I have a habit of taking notes while I study, check the published version.&nbsp;&nbsp;
        <Button className="bg-brown-500 text-white font-semibold py-1 px-4 rounded shadow-lg hover:bg-brown-600 transition duration-300">
-        <a href="https://pylhr-digital-garden.vercel.app/" target="_blank">Visit Here</a>
+        <a href="https://pylhr-digital-garden.vercel.app/" target="_blank">Notes</a>
        </Button>
 
        
