@@ -18,6 +18,9 @@ export default function Home() {
       <p className="text-xl text-brown-600 mb-4 italic">
   Currently focused on building Elyon, Equinox AI, and Scholarium.
 </p>  
+<p className="text-lg text-brown-600 mb-4">
+     Check out my <a href="https://pylhr-digital-garden.vercel.app/" className="text-blue-600 underline">notes</a>.
+  </p>
       <Button className="bg-brown-500 text-white font-semibold rounded-lg py-2 px-6 shadow-lg hover:bg-brown-600 transition duration-300">
             <a href="/projects">Explore More</a>
           </Button>
