@@ -87,7 +87,7 @@ const EquinoxAI = () => {
         {/* Call-to-Action Section */}
         <section className="text-center mb-12">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            Let's Collaborate!
+            Let&apos;s Collaborate!
           </h2>
           <p className="text-gray-600 mb-4">
             Ready to bring your ideas to life? Contact us for a consultation and discover how we can help your business thrive.
