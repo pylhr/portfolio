@@ -22,6 +22,16 @@ export function MobileDrawer({ isOpen, onClose } : MobileDrawerProps ) {
           <li onClick={onClose} className='mb-6'>
             <LogoLink  />
           </li>
+          <li>
+                    <Link href="/scholarium" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
+                        >Scholarium
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/equinox-ai" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
+                        >Equinox AI
+                    </Link>
+                </li>
         <li>
                     <Link href="/blog" className="text-base font-normal text-gray-500 list-none hover:text-gray-900" onClick={onClose}
                         >Blog</Link>

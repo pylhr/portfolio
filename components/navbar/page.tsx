@@ -24,6 +24,16 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="hidden md:flex md:space-x-10 list-none">
+            <li>
+                    <Link href="/scholarium" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
+                        >Scholarium
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/equinox-ai" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
+                        >Equinox AI
+                    </Link>
+                </li>
                 <li>
                     <Link href="/blog" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
                         >Blog</Link>
