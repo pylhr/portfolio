@@ -1,14 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 
-const EquinoxAI = () => {
+const AquilonisAI = () => {
   return (
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div className="relative pt-8 pb-16 sm:pb-24">
         {/* Hero Section */}
         <section className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
-            Welcome to Equinox AI
+            Welcome to Aquilonis AI
           </h1>
           <p className="text-lg text-gray-600">
           Empowering businesses with innovative AI solutions and SaaS development. We help you leverage technology to achieve your goals.
@@ -105,7 +105,7 @@ const EquinoxAI = () => {
             Explore My Insights
           </h2>
           <p className="text-gray-600 mb-4">
-            Check out Equinox AI&apos;s medium blog.
+            Check out Aquilonis AI&apos;s medium blog.
           </p>
           <Link href="https://medium.com/@pylhr">
             <button className="bg-blue-500 text-white rounded-lg py-2 px-4 hover:bg-blue-600">
@@ -118,4 +118,4 @@ const EquinoxAI = () => {
   );
 };
 
-export default EquinoxAI;
+export default AquilonisAI;

@@ -16,7 +16,7 @@ export default function Home() {
       {/* What I'm Working On Section */}
       <section className="text-center mb-12">
       <p className="text-xl text-brown-600 mb-4 italic">
-  Currently focused on building Elyon, Equinox AI, and Scholarium.
+  Currently focused on building Elyon, Aquilonis AI, and Scholarium.
 </p>  
 <p className="text-lg text-brown-600 mb-4">
      Check out my <a href="https://pylhr-digital-garden.vercel.app/" className="text-blue-600 underline">notes</a>.

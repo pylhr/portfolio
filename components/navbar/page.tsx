@@ -30,8 +30,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/equinox-ai" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
-                        >Equinox AI
+                    <Link href="/aquilonis-ai" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
+                        >Aquilonis AI
                     </Link>
                 </li>
                 <li>
