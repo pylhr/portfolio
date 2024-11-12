@@ -1,9 +1,11 @@
 'use client'
 import React, {useState} from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { LogoLink } from './resposive-navbar-components/LogoLink'
 import { MobileMenuButton } from './resposive-navbar-components/MobileMenuButton'
 import { MobileDrawer } from './resposive-navbar-components/MobileDrawer'
+import logo from "../../public/logo.svg"
 const Navbar = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -18,7 +20,7 @@ const Navbar = () => {
             <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
                     <Link href="/"><span className="sr-only">PYLHR</span>
-                        <img className="w-auto h-8 sm:h-10" src="https://svgshare.com/i/16fj.svg" loading="lazy" width="202" height="40" />
+                        <Image className="w-auto h-8 sm:h-10" src={logo} alt='logo' loading="lazy"  />
                     </Link>
                     
                 </div>
