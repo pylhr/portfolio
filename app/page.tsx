@@ -7,7 +7,7 @@ export default function Home() {
       <div className="relative pt-12 pb-16 sm:pb-24">
         {/* Introduction Section */}
         <section className="text-center mb-12">
-          <p className="text-5xl font-extrabold text-brown-800 mb-2">hey, I&apos;m (Eng.) Priyanshu 👋</p>
+          <p className="text-5xl font-extrabold text-brown-800 mb-2">hey, I&apos;m Priyanshu 👋</p>
           <p className="text-2xl font-semibold text-brown-700 mb-4">Software Engineer | Researcher</p>
           <p className="text-xl text-brown-600 mb-4">
             Software Engineer @ Elyon | Generative AI Fellow @ GenAITechLab 
