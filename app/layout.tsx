@@ -34,7 +34,7 @@ export default function RootLayout({
       <meta property="og:description" content="Welcome to the official website of Priyanshu Lohar, showcasing a portfolio of cutting-edge projects, including AI automation solutions and fintech applications. Dive into a collection of articles, tutorials, and insights that reflect a dedication to technology and innovation. Stay updated with the latest developments in machine learning, software engineering, and personal achievements in the tech industry." />
       <meta property="og:image" content="/public/logo.png" />
       <link rel="canonical" href="https://pylhr.vercel.app" />
-    
+      <meta name="google-site-verification" content="vBL1H6ZtEBWh711imiFnZaLFO7GJLN2sedNFhHDYQNk" />
       </head>
       <body
         className={`${cormorantGaramond.variable} ${poppins.variable} bg-neutral-100`}
